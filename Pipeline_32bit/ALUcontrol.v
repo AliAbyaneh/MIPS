@@ -1,3 +1,7 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+// Arithmatic and Logic Unit Controller Verilog Implementation 
+
 module ALUcontrol(ALUop, func, ALUoperation, hiloread, mult, jrsel, mf);
   input [1:0] ALUop;
   input [5:0] func;
@@ -31,23 +35,4 @@ module ALUcontrol(ALUop, func, ALUoperation, hiloread, mult, jrsel, mf);
   
   end
   
-  
-  
-  
-  //wire iALUop0, iALUop1;
-  //assign ALUop 
-  /*table
-  // ALUop    func    :   ALUoperation
-    1 0 1 0 0 0 0 0  : 0 1 0;
-    1 0 1 0 0 0 1 0  : 1 1 0;
-    1 0 1 0 0 1 0 0  : 0 0 0;
-    1 0 1 0 0 1 0 1  : 0 0 1;
-    1 0 1 0 1 0 1 0  : 1 1 1;
-    1 0 0 0 1 0 0 0  : 0 1 0;
-    1 0 0 1 0 0 0 0  : 0 1 0;
-    1 0 0 1 0 0 1 0  : 0 1 0;
-    0 1 ? ? ? ? ? ?  : 1 1 0;
-    0 0 ? ? ? ? ? ?  : 0 1 0;
-    
-  endtable*/
 endmodule
