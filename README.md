@@ -1,4 +1,5 @@
 # MIPS
+
 ### 32-bit Pipeline MIPS
 
 #### General Discription:
@@ -42,3 +43,10 @@ You can also write your own program machine code and change the bubble_sort.bin 
 initial $readmemb("ABC.bin", instMem);
 ```
 
+### 16-bit MIPS processor with 2-way L1 cache tested on Altera DE2 board
+
+Verilog implementation of a 5 stage pipeline custom MIPS core with static branch prediction, 5-cycle memory access, 2-way L1 cache, with 1-bit LRU, and full forwarding tested on DE2 board.
+
+#### Running the test:
+
+You can easily write your own code in INST_ROM.v, compile the project in Quartus II, and see the result in Signal Tap. Note that you have to import DE2_pin_assignments.csv in Quartus II assignment section.
