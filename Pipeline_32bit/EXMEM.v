@@ -1,3 +1,7 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+// Execution Memory Implementation 
+
 module EXMEM(M, WB, PC4, res, readData2, RCT, inst, hilo, write, flush, clk, rst, Mo, WBo, PC4o, reso, readData2o, RCTo, insto, hiloo);
   input [1:0] M;
   input [5:0] WB;
