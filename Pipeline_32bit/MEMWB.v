@@ -1,3 +1,6 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+
 module MEMWB (WB, PC4, memData, res, RCT, inst, hilo, write, flush, clk, rst, WBo, PC4o, memDatao, reso, RCTo, insto, hiloo);
   input [5:0] WB;
   input [31:0] PC4,memData, res;
