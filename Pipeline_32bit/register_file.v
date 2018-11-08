@@ -1,3 +1,6 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+
 module register_file(ReadReg1, ReadReg2, WriteReg, WriteData, RegWrite, clk, rst, ReadData1, ReadData2);
   input [4:0] ReadReg1, ReadReg2, WriteReg;
   input [31:0] WriteData;
