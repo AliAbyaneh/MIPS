@@ -1,3 +1,6 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+
 module IDEXE(EX, M, WB, PC4, readData1, readData2, inst, branch, write, flush, clk, rst, EXo, Mo, WBo, PC4o, readData1o, readData2o, insto, brancho);
   input [2:0] EX;
   input [1:0] M;
