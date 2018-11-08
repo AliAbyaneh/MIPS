@@ -1,3 +1,6 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+
 module datapath (clk,rst,ex,m,wb,branch,jumpsel,opc, eq);
   
   input clk,rst,branch,jumpsel;
