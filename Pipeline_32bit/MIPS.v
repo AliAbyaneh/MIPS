@@ -1,3 +1,6 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+// MIPS high-level Verilog Implementation 
 module MIPS(clk,rst);
   input clk,rst;
   
