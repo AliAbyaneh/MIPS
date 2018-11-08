@@ -1,3 +1,6 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+
 module StallHandler(opc, func, branch, stall);
   input [5:0] opc, func;
   input branch;
