@@ -1,3 +1,6 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+// Arithmatic and Logic Unit Verilog Implementation 
 module ALU (op1, op2, ALUcontrol, res, zero, HI, LO);
 
   parameter AND = 3'b000, OR = 3'b001, ADD = 3'b010, SUB = 3'b110, SLT = 3'b111, MUL = 3'b011, DIV = 3'b100;
