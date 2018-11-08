@@ -1,3 +1,6 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+
 module controller (jalsel,regdst,Pctoreg,uppersel,ALUsrc,ALUop,Memtoreg,writemem,readmem,regwrite,branch,jumpsel,zero,opc);
   output reg jalsel,regdst,Pctoreg,uppersel,ALUsrc,Memtoreg,writemem,readmem,regwrite,branch,jumpsel;
   output reg [1:0] ALUop;
