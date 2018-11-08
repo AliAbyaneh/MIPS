@@ -1,3 +1,7 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+// Hazard Detection Unit Verilog Implementation 
+
 module HazardDetection(IFID_rt, IFID_rs, IFID_aluop, IDEX_rt, IDEX_rd, IDEX_regwrite, IDEX_memread, EXMEM_rt, EXMEM_memread, PCwrite, IFIDwrite, hold);
   input [4:0] IFID_rt, IFID_rs;
   input [1:0] IFID_aluop;
