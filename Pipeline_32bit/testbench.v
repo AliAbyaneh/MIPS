@@ -1,3 +1,6 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+
 module testbench ();
   reg rst = 1,clk=0;
   integer clockcount = 0;
