@@ -1,3 +1,6 @@
+// Authors : Ali Abyaneh, Mahyar Emami
+// Fall 2016, Computer Architecture
+
 module IFID(PC4, inst, write, flush, clk, rst, PC4o, insto);
   input [31:0] PC4, inst;
   input clk, rst, flush, write;
