@@ -50,3 +50,7 @@ Verilog implementation of a 5 stage pipeline custom MIPS core with static branch
 #### Running the test:
 
 You can easily write your own code in INST_ROM.v, compile the project in Quartus II, and see the result in Signal Tap. Note that you have to import DE2_pin_assignments.csv in Quartus II assignment section.
+
+### Data path
+
+![alt text](MIPS.jpg)
